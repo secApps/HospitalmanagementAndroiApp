@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Name: Shuhan Ahmed"
+            android:inputType="number"
+            android:id="@+id/name"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Age: 49"
+            android:id="@+id/age"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:hint="Email: sh@gmail.com"
+            android:id="@+id/email"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Advices"
+            android:id="@+id/advices"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <Spinner
+            android:layout_width="match_parent"
+            android:hint="Medication"
+            android:id="@+id/medicine"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <Spinner
+            android:layout_width="match_parent"
+            android:hint="Doctor"
+            android:id="@+id/diagnosis"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Notes"
+            android:id="@+id/notes"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:text="SUBMIT"
+            android:id="@+id/submit"
+            android:layout_margin="40dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

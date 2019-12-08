@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Add Appointment"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="ssn"
+            android:inputType="number"
+            android:visibility="gone"
+            android:id="@+id/ssn"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Shuhan Ullah"
+            android:id="@+id/user_name"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="shuhan@gmail.com"
+            android:id="@+id/last_name"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Text Report"
+            android:id="@+id/report"
+            android:layout_margin="10dp"
+            android:layout_height="90dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Notes"
+            android:id="@+id/notes"
+            android:layout_margin="10dp"
+            android:layout_height="90dp">
+
+        </EditText>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Attach File"
+            android:id="@+id/file"
+            android:layout_margin="40dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:text="SUBMIT"
+            android:background="@color/colorAccent"
+            android:id="@+id/submit"
+            android:layout_margin="40dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

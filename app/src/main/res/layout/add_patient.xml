@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Add New Patient and Appointment"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="ssn"
+            android:inputType="number"
+            android:id="@+id/ssn"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="First name"
+            android:id="@+id/first_name"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Last name"
+            android:id="@+id/last_name"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Address"
+            android:inputType="date"
+            android:id="@+id/address"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <Button
+            android:layout_width="match_parent"
+            android:text="SUBMIT"
+            android:id="@+id/submit"
+            android:layout_margin="40dp"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
